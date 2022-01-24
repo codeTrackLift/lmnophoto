@@ -1,0 +1,1 @@
+const cameraSound = new Audio(./sounds/camera.mp3);
