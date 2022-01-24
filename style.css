@@ -1,5 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html {
@@ -11,24 +13,33 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-    color:darkturquoise
+    color: darkturquoise;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 h6 {
     font-size: larger;
 }
 
+p {
+    color: silver;
+}
+
 #welcome {
     background-color: transparent;
 }
 
-#about {
+#carouselExampleIndicators {
     border: 1px solid silver;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
     padding-top: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 90vw;
 }
 
 #packages {
