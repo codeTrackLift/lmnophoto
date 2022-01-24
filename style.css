@@ -1,0 +1,60 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
+}
+
+h1 {
+    color:darkturquoise
+}
+
+h3 {
+    color: darkturquoise
+}
+
+#welcome {
+    background-color: transparent;
+}
+
+#about {
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#packages {
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+h4 {
+    color: darkturquoise;
+}
+ul {
+    color: silver;
+}
+
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(-1, 1) scale(1);
+    opacity: 50%;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0 0 0;
+}
