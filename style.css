@@ -10,12 +10,12 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     color:darkturquoise
 }
 
-ul {
-    color: silver;
+h6 {
+    font-size: larger;
 }
 
 #welcome {
@@ -32,9 +32,13 @@ ul {
 }
 
 #packages {
-    border: 1px solid silver;
+    border: 1px solid white;
     border-radius: 10px;
     padding: 1rem;
+    background-image: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)), url("./pics/studio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
 }
 
 img {
