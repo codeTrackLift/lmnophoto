@@ -9,7 +9,7 @@ html {
     background-size: cover;
     background-attachment: fixed;
     background-position: top center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
 }
 
 h1, h2, h3, h4, h5 {
@@ -70,7 +70,13 @@ p {
 #footer {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 2rem;
     margin: 1.5rem 0 0 0;
     color: peachpuff
+}
+
+#footer>div {
+    display: flex;
+    flex: row;
+    gap: 0.5rem;
 }
