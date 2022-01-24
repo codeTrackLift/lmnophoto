@@ -58,12 +58,12 @@ p {
 }
 
 .float-start:hover {
-    transform: rotate(-0.1turn) scale(0.8);
+    transform: rotate(-0.05turn) scale(0.8);
     opacity: 50%;
 }
 
 .float-end:hover {
-    transform: rotate(0.1turn) scale(0.8);
+    transform: rotate(0.05turn) scale(0.8);
     opacity: 50%;
 }
 
