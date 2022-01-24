@@ -12,12 +12,16 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
 }
 
-h1, h2, h3, h4, h5 {
-    color: darkturquoise;
+h1, h2 {
+    color: cyan;
 }
 
 h1 {
     font-size: xx-large;
+}
+
+h3, h4, h5 {
+    color: teal;
 }
 
 h6 {
@@ -35,11 +39,10 @@ p {
 #carouselExampleIndicators {
     border: 1px solid silver;
     border-radius: 10px;
-    /* display: flex; */
     padding-top: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 90vw;
+    width: 80vw;
 }
 
 #packages {
