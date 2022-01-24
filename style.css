@@ -53,6 +53,14 @@ p {
     background-position: center;
 }
 
+.tiltLeft {
+    transform: rotate(-15deg);
+}
+
+.tiltRight {
+    transform: rotate(15deg);
+}
+
 .float-start, .float-end {
     transition: transform 0.5s ease-in-out;
 }
