@@ -9,6 +9,7 @@
   </head>
   <body class='bg-transparent'>
     <div class='container-fluid'>
+<!--       
         <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#welcome">LMNO<br>Photography</a>
@@ -16,7 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#about">About</a>
                   </li>
@@ -37,9 +38,50 @@
                 </ul>
               </div>
             </div>
+          </nav> -->
+
+          <nav class="navbar navbar-dark bg-transparent sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img id='camLogo' style='width:3rem' src="./pics/cameraicon_orange.png" alt="Orange camera icon."></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LMNO Photography</h5>
+                  <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#welcome" style='color:orange'>Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about" style='color:orange'>About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style='color:orange'>
+                        Pricing & Packages
+                      </a>
+                      <ul class="dropdown-menu bg-transparent" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="#packages" style='color:orange'>Small Package</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#packages" style='color:orange'>Medium Package</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#packages" style='color:orange'>The Holy Grail!</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </nav>
 
-        <div id='welcome' class='container-md text-light'>
+        <div id='welcome' class='container-md text-light p-3'>
             <h1>Welcome to LMNO Photography</h1>
             <p>These are just filler words and can be replaced with some real content.  Are you still reading this?  Please stop reading me, I'm just filler text that doesn't really mean anything.  You can keep reading if you really want, I appreciate your interested in this silly paragraph. These are just filler words and can be replaced with some real content.  Are you still reading this?  Please stop reading me, I'm just filler text that doesn't really mean anything.  You can keep reading if you really want, I appreciate your interested in this silly paragraph.</p>
         </div>
@@ -164,7 +206,7 @@
                     </ul>
                 </div>
                 <div class='col'>
-                    <p>$49.99 (also for a limited time!)</p>
+                    <p>$49.99 (yet again, a limited time.)</p>
                 </div>
             </div>
         </div>

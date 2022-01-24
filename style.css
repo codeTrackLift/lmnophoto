@@ -9,12 +9,12 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color:darkturquoise
 }
 
-h3 {
-    color: darkturquoise
+ul {
+    color: silver;
 }
 
 #welcome {
@@ -36,19 +36,12 @@ h3 {
     padding: 1rem;
 }
 
-h4 {
-    color: darkturquoise;
-}
-ul {
-    color: silver;
-}
-
 img {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 img:hover {
-    transform: scale(-1, 1) scale(1);
+    /* transform: scale(-1, 1) scale(1); */
     opacity: 50%;
 }
 
