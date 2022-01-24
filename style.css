@@ -35,10 +35,11 @@ h6 {
     border: 1px solid white;
     border-radius: 10px;
     padding: 1rem;
-    background-image: linear-gradient(rgba(61, 61, 61, 0.7), rgba(61, 61, 61, 0.7)), url("./pics/studio.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top center;
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/studio.jpg");
+    background-size: contain;
+    background-attachment: local;
+    background-position: center;
 }
 
 img {
@@ -46,7 +47,6 @@ img {
 }
 
 img:hover {
-    /* transform: scale(-1, 1) scale(1); */
     opacity: 50%;
 }
 
