@@ -32,6 +32,10 @@ p, li {
     color: silver;
 }
 
+#navbarNavDropdown{
+    width: 25rem;
+}
+
 #welcome {
     background-color: transparent;
 }
