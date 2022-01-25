@@ -89,6 +89,18 @@ p, li {
     color: silver;
 }
 
+form>button {
+    width: 80%;
+    background-color: teal;
+    color:white;
+    border-radius: 10px;
+}
+
+form>button:hover {
+    background-color: cyan;
+    color: black
+}
+
 textarea {
     resize: none;
 }
@@ -116,16 +128,16 @@ textarea {
     transform: rotate(15deg);
 }
 
-.float-start, .float-end {
+.row>.float-start, .row>.float-end {
     transition: transform 0.5s ease-in-out;
 }
 
-.float-start:hover {
+.row>.float-start:hover {
     transform: rotate(-0.05turn) scale(0.8);
     opacity: .5;
 }
 
-.float-end:hover {
+.row>.float-end:hover {
     transform: rotate(0.05turn) scale(0.8);
     opacity: .5;
 }
