@@ -13,14 +13,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
+    <!-- Scroll Magic JS -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+
     <!-- My CSS & JS -->
     <link rel="stylesheet" href="./style.css">
-    <script>
-      const camera = new Audio('./sounds/camera.mp3');
-      function cameraSound() {
-          camera.play();
-      }
-    </script>
+    <script src='./index.js' defer></script>
 
     <title>LMNO Photography</title>
   </head>
@@ -58,37 +56,6 @@
           </div>
         </div>
       </nav>
-
-      <!-- <nav class="navbar navbar-expand-md navbar-dark bg-transparent sticky-top">
-        <div class="container-fluid">
-          <a href="#" onclick='cameraSound()'><img id='navbar-brand camLogo' style='width:3rem' src="./pics/mermaid_camera.gif" alt="Orange camera icon."></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end bg-black" style='height:23rem;width:17rem' tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LMNO Photography</h5>
-              <button type="button" class="btn-close text-reset bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#welcome" style='color:silver'>Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#aboutHR" style='color:silver'>About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#galleryHR" style='color:silver'>Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#packagesHR" style='color:silver'>Pricing & Packages</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav> -->
 
       <div id='welcome' class='container-md text-light row mx-auto'>
           <h1 class='text-center'>Welcome to LMNO Photography</h1>
@@ -151,60 +118,60 @@
           <div class='row'>
               <div class='col-sm-4 float-start'>
                   <a href="./photos/dog1_portrait1.jpg" target='_blank'>
-                      <img src="./photos/dog1_portrait1.jpg" class="img-fluid img-thumbnail rounded mx-10" alt="A huskey with fall background.">
+                      <img src="./photos/dog1_portrait1.jpg" class="scene1 img-fluid img-thumbnail rounded mx-10" alt="A huskey with fall background.">
                   </a>
               </div>
               <div class='col-sm-6 float-end'>
                   <a href="./photos/ring_landscape.jpg" target='_blank'>
-                      <img src="./photos/ring_landscape.jpg" class="tiltLeft img-fluid img-thumbnail rounded m-3" alt="An engagement ring, a couple are holding hands.">
+                      <img src="./photos/ring_landscape.jpg" class="scene1 tiltLeft img-fluid img-thumbnail rounded m-3" alt="An engagement ring, a couple are holding hands.">
                   </a>
               </div>
           </div>
           <div class='row'>
               <div class='col-sm-6'>
                   <a href="./photos/babyfeet_landscape.jpg" target='_blank'>
-                      <img src="./photos/babyfeet_landscape.jpg" class="img-fluid img-thumbnail float-start m-5" alt="Photograph of baby feet with a green blanket.">
+                      <img src="./photos/babyfeet_landscape.jpg" class="scene1 img-fluid img-thumbnail float-start m-5" alt="Photograph of baby feet with a green blanket.">
                   </a>
               </div>
               <div class='col-sm-4'>
                   <a href="./photos/dog2_portrait.jpg" target='_blank'>
-                      <img src="./photos/dog2_portrait.jpg" class="img-fluid img-thumbnail float-end my-1" alt="A friendly dog wearing a red tie.">
+                      <img src="./photos/dog2_portrait.jpg" class="scene1 mg-fluid img-thumbnail float-end my-1" alt="A friendly dog wearing a red tie.">
                   </a>
               </div>
           </div>
           <div class='row'>
               <div class='col-sm-8 float-start'>
                   <a href="./photos/personcouch_landscape.jpg" target='_blank'>
-                      <img src="./photos/personcouch_landscape.jpg" class="tiltRight img-fluid img-thumbnail rounded my-3" alt="Pregnant person wearing green and lying on gray couch.">
+                      <img src="./photos/personcouch_landscape.jpg" class="scene2 tiltRight img-fluid img-thumbnail rounded my-3" alt="Pregnant person wearing green and lying on gray couch.">
                   </a>
               </div>
               <div class='col-sm-4 float-end'>
                   <a href="./photos/ring_portrait.jpg" target='_blank'>
-                      <img src="./photos/ring_portrait.jpg" class="img-fluid img-thumbnail rounded m-3" alt="An engagement ring, bride-to-be is wearing a pink sweater.">
+                      <img src="./photos/ring_portrait.jpg" class="scene2 img-fluid img-thumbnail rounded m-3" alt="An engagement ring, bride-to-be is wearing a pink sweater.">
                   </a>
               </div>
           </div>
           <div class='row'>
               <div class='col-sm-4'>
                   <a href="./photos/persontree_portrait.jpg" target='_blank'>
-                      <img src="./photos/persontree_portrait.jpg" class="img-fluid img-thumbnail float-start m-5" alt="A person wearing white leaning against a tree.">
+                      <img src="./photos/persontree_portrait.jpg" class="scene2 img-fluid img-thumbnail float-start m-5" alt="A person wearing white leaning against a tree.">
                   </a>
               </div>
               <div class='col-sm-7'>
                   <a href="./photos/dog1_portrait2.jpg" target='_blank'>
-                      <img src="./photos/dog1_portrait2.jpg" class="img-fluid img-thumbnail float-end m-3" alt="Friendly huskey looking up, grass and leaves in background.">
+                      <img src="./photos/dog1_portrait2.jpg" class="scene2 img-fluid img-thumbnail float-end m-3" alt="Friendly huskey looking up, grass and leaves in background.">
                   </a>
               </div>
           </div>
           <div class='row'>
             <div class='col-sm-8 float-start'>
                 <a href="./photos/groupbw_landscape.jpg" target='_blank'>
-                    <img src="./photos/groupbw_landscape.jpg" class="tiltLeft img-fluid img-thumbnail rounded mx-10" alt="A black and white photograph of family lying down heads together.">
+                    <img src="./photos/groupbw_landscape.jpg" class="scene3 tiltLeft img-fluid img-thumbnail rounded mx-10" alt="A black and white photograph of family lying down heads together.">
                 </a>
             </div>
             <div class='col-sm-4 float-end'>
                 <a href="./photos/couple_portrait.jpg" target='_blank'>
-                    <img src="./photos/couple_portrait.jpg" class="img-fluid img-thumbnail rounded m-3" alt="A happy couple!">
+                    <img src="./photos/couple_portrait.jpg" class="scene3 img-fluid img-thumbnail rounded m-3" alt="A happy couple!">
                 </a>
             </div>
         </div>

@@ -60,11 +60,11 @@ p, li {
     background-position: center;
 }
 
-.tiltLeft {
+.tiltLeft.show {
     transform: rotate(-15deg);
 }
 
-.tiltRight {
+.tiltRight.show {
     transform: rotate(15deg);
 }
 
@@ -74,12 +74,21 @@ p, li {
 
 .float-start:hover {
     transform: rotate(-0.05turn) scale(0.8);
-    opacity: 50%;
+    opacity: .5;
 }
 
 .float-end:hover {
     transform: rotate(0.05turn) scale(0.8);
-    opacity: 50%;
+    opacity: .5;
+}
+
+.scene1,.scene2,.scene3 {
+    opacity: 0;
+    transition: 1s;
+}
+
+.scene1.show,.scene2.show,.scene3.show {
+    opacity: 1;
 }
 
 #footer {
