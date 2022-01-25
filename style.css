@@ -81,16 +81,14 @@ p, li {
     border-radius: 10px;
     margin: 2rem auto;
     padding: 2rem 0;
+    max-width: 50rem;
 }
 
 .form-item {
-    display: flex;
-    justify-content: space-between;
     color: silver;
 }
 
 form>button {
-    width: 80%;
     background-color: teal;
     color:white;
     border-radius: 10px;
