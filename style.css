@@ -82,12 +82,12 @@ p, li {
     opacity: .5;
 }
 
-.scene1,.scene2,.scene3 {
+.scene1,.scene2,.scene3,.scene4,.scene5,.scene6,.scene7,.scene8,.scene9,.scene10 {
     opacity: 0;
     transition: 1s;
 }
 
-.scene1.show,.scene2.show,.scene3.show {
+.scene1.show,.scene2.show,.scene3.show,.scene4.show,.scene5.show,.scene6.show,.scene7.show,.scene8.show,.scene9.show,.scene10.show {
     opacity: 1;
 }
 
