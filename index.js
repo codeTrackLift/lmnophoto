@@ -108,5 +108,4 @@ emailButton.addEventListener('click', () => {
         Subject: 'Contact Us Query By the Customer',
         Body: inputs.elements['message'].value + '<br>' + inputs.elements['name'].value + '<br>' + inputs.elements['phone'].value,
     })
-    .then(msg => alert('The email has been successfully sent.'))
 });
