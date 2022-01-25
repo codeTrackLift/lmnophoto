@@ -28,7 +28,7 @@ h6 {
     font-size: larger;
 }
 
-p {
+p, li {
     color: silver;
 }
 
