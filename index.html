@@ -34,7 +34,7 @@
           <div class="collapse navbar-collapse bg-black" id="navbarNavDropdown" style='border-radius:10px'>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'></a>
+                <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img id='merCamIcon' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#aboutHR">About</a>
@@ -47,9 +47,9 @@
                   Pricing & Packages
                 </a>
                 <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" style='color:silver' href="#packagesHR">Small Package</a></li>
-                  <li><a class="dropdown-item" style='color:silver' href="#packagesHR">Medium Package</a></li>
-                  <li><a class="dropdown-item" style='color:silver' href="#packagesHR">The Holy Grail!</a></li>
+                  <li><a class="dropdown-item" href="#packagesHR">Small Package</a></li>
+                  <li><a class="dropdown-item" href="#packagesHR">Medium Package</a></li>
+                  <li><a class="dropdown-item" href="#packagesHR">The Holy Grail!</a></li>
                 </ul>
               </li>
             </ul>
@@ -57,13 +57,21 @@
         </div>
       </nav>
 
-      <div id='welcome' class='container-md text-light row mx-auto'>
-          <h1 class='text-center'>Welcome to LMNO Photography</h1>
-          <hr>
-          <p style='width:90vw' class='h5'>Mrs Lauren Nunn she/her
-            👰🏼 🧜🏼‍♀️ welcome to my photography / wedding / creative insta!! 📸 💍 🎨</p>
-            <br> <hr>
-          <p class='h5 w-90vw'>🎉 🎂 💐 💅🏼 A good photo can say a thousand words, a great one will sing them ✨ DM to schedule! 🥰</p>
+      <h1 class='text-center'>Welcome to LMNO Photography</h1>
+      <div id='welcome' class='container-fluid text-light '>
+        <hr>
+        <div class='row justify-content-evenly'>
+          <div class='col-sm-3 flex-start'>
+            <p class='h5'>Mrs Lauren Nunn she/her 👰🏼 🧜🏼‍♀️ welcome to my photography / wedding / creative insta!! 📸 💍 🎨</p>
+          </div>
+          <div class='col-sm-4'>
+            <img class='d-none d-sm-block' style='width:25vw' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon.">
+          </div>
+          <hr class='d-block d-sm-none'>
+          <div class='col-sm-3 flex-end'>
+            <p class='h5'>🎉 🎂 💐 💅🏼 A good photo can say a thousand words, a great one will sing them ✨ DM to schedule! 🥰</p>
+          </div>
+        </div>
       </div>
       
       <hr id='aboutHR'>

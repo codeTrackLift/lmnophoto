@@ -36,6 +36,23 @@ p, li {
     padding-left: 1rem;
 }
 
+.dropdown-item {
+    color: gray;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: silver;
+}
+
+#merCamIcon {
+    transition: transform .8s ease-in-out;
+}
+
+#merCamIcon:hover {
+    transform: rotate(-360deg);
+}
+
 #welcome {
     background-color: transparent;
 }
