@@ -71,7 +71,7 @@ var scene7 = new ScrollMagic.Scene({
 var controller8 = new ScrollMagic.Controller();
 var scene8 = new ScrollMagic.Scene({
     triggerElement: '.scene8',
-    offset: -100,
+    offset: 50,
     duration: 600
 })
 .setClassToggle('.scene8', 'show')
