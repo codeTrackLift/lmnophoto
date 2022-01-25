@@ -32,8 +32,8 @@ p, li {
     color: silver;
 }
 
-#navbarNavDropdown{
-    width: 25rem;
+.navbar-nav {
+    padding-left: 1rem;
 }
 
 #welcome {
