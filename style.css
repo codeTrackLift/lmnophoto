@@ -10,7 +10,7 @@ html {
     background-position: bottom center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
 }
-@media (min-width:640px) {
+@media (min-width:768px) {
     .photoBG {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
         background-size: cover;
