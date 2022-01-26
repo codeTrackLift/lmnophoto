@@ -33,8 +33,8 @@
           </button>
           <div class="collapse navbar-collapse bg-black" id="navbarNavDropdown" style='border-radius:10px'>
             <ul class="navbar-nav">
-              <li class="nav-item d-flex" style='gap:1rem'>
-                <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img id='merCamIcon' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'>  </a><h3 class='d-flex pt-3'>LMNO Photography</h3>
+              <li class="nav-item d-flex" style='gap:1rem;align-items:center;'>
+                <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img id='merCamIcon' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'>  </a><h3 class='d-flex mochiFont pt-2' style='color:cyan'>LMNO Photography</h3>
                 <hr>
               </li>
               <li class="nav-item">
@@ -61,19 +61,22 @@
         </div>
       </nav>
 
-      <h1 class='text-center'>Welcome to LMNO Photography</h1>
+      <h1 class='text-center mochiFont'>Welcome to LMNO Photography</h1>
       <div id='welcome' class='container-fluid text-light '>
         <hr>
         <div class='row justify-content-evenly'>
           <div class='col-sm-5 d-flex' style='align-self:center'>
             <img class='d-none d-sm-block' style='width:33vw' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon.">
           </div>
-          <div class='col-sm-3 flex-start d-flex' style='align-self:center'>
-            <p class='h5'>Mrs Lauren Nunn she/her 👰🏼 🧜🏼‍♀️ welcome to my photography / wedding / creative insta!! 📸 💍 🎨</p>
-          </div>
-          <hr class='d-block d-sm-none'>
-          <div class='col-sm-3 flex-end d-flex' style='align-self:center'>
-            <p class='h5'>🎉 🎂 💐 💅🏼 A good photo can say a thousand words, a great one will sing them ✨ DM to schedule! 🥰</p>
+          <div class='col-sm-7 d-flex g-2 row'>
+            <div class='text-center' style='align-self:center'>
+              <p class='h5'>Mrs Lauren Nunn is a professional Philadelaphia photographer and specializes in portraits, headshots, weddings, and events!</p>
+            </div>
+            <hr class='d-block' style='color:transparent'>
+            <div class='text-center' style='align-self:center'>
+              <p class='h6'>"A good photo can say a thousand words, a great one will sing them!"</p>
+              <p class='text-end'>-<img class='p-1' src="./pics/instagram.png" alt="Instagram Logo" style='height:1.5rem'>mrsmermade4u, 2020</p>
+            </div>
           </div>
         </div>
       </div>
@@ -192,12 +195,12 @@
       <hr id='packagesHR'>
       <div id='packages' class='container text-light' style='width:80vw'>
           <div class='row text-center'>
-            <h2>Packages & Pricing</h2>
+            <h2 class='mochiFont'>Packages & Pricing</h2>
           </div>
           <hr>
           <div class='row justify-content-evenly'>
               <div class='col-md-4 text-center'>
-                  <h4>Small Package</h4>
+                  <h4 class='mochiFont'>Small Package</h4>
               </div>
               <div class='col-sm-4'>
                   <ul>
@@ -206,13 +209,13 @@
                   </ul>
               </div>
               <div class='col-sm-3 text-center'>
-                  <p>$29.99 (for a limited time!)</p>
+                  <p style='color:white'>$29.99 (for a limited time!)</p>
               </div>
           </div>
           <hr>
           <div class='row justify-content-evenly'>
               <div class='col-md-4 text-center'>
-                  <h4>Medium Package</h4>
+                  <h4 class='mochiFont'>Medium Package</h4>
               </div>
               <div class='col-sm-4'>
                   <ul>
@@ -223,13 +226,13 @@
                   </ul>
               </div>
               <div class='col-sm-3 text-center'>
-                  <p>$39.99 (also for a limited time!)</p>
+                  <p style='color:white'>$39.99 (also for a limited time!)</p>
               </div>
           </div>
           <hr>
           <div class='row justify-content-evenly'>
               <div class='col-md-4 text-center'>
-                  <h4>The Holy Grail!</h4>
+                  <h4 class='mochiFont'>The Holy Grail!</h4>
               </div>
               <div class='col-sm-4'>
                   <ul>
@@ -242,15 +245,15 @@
                   </ul>
               </div>
               <div class='col-sm-3 text-center'>
-                  <p>$49.99 (yet again, a limited time.)</p>
+                  <p style='color:white'>$49.99 (yet again, a limited time.)</p>
               </div>
           </div>
       </div>
 
       <div id='contact' class='container text-light text-center' style='width:80vw'>
-        <h2>Contact Us!</h2>
+        <h2 class='mochiFont'>Contact Us!</h2>
         <h5>Do you need professional photography services?</h5>
-        <p>Let us know the <strong><u>event type</u></strong> and <strong><u>date</u></strong>.  We look forward to making your photographs <em style='color:cyan'><u>sing!</em></u></p>
+        <p>Let us know the <strong><u>event type</u></strong> and <strong><u>date</u></strong>.  We look forward to making your photographs <em style='color:cyan'>sing!</em></p>
         <div class='container-fluid'>
           <form class='container-fluid p-1'>
             <div class='form-item row'>
@@ -259,11 +262,11 @@
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Phone: </label>
-              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name="phone" placeholder='XXX-XXX-XXXX' required>
+              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name="phone" placeholder='xxx-xxx-xxxx' required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Email:</label>
-              <input class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='email' placeholder="youremail@domain.com" required>
+              <input class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='email' placeholder="your_email@domain.com" required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Message:</label>

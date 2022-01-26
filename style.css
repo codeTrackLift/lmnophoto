@@ -1,6 +1,5 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,6 +29,10 @@ h6 {
 
 p, li {
     color: silver;
+}
+
+.mochiFont {
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .navbar-nav {
