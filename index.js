@@ -100,9 +100,9 @@ const emailButton = document.querySelector('#emailButton');
 const inputs = document.querySelector('form');
 emailButton.addEventListener('click', () => {
     Email.send({
-        Host: 'smtp.mailtrap.io',
-        Username: 'b999db8ced9841',
-        Password: '1884af2be311ae',
+        Host: '',
+        Username: '',
+        Password: '',
         To: 'test@mermaid.photo',
         From: inputs.elements['email'].value,
         Subject: 'Contact Us Query By the Customer',
