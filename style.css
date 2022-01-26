@@ -120,6 +120,15 @@ textarea {
     gap: 0.5rem;
 }
 
+#gitLogo,#igLogo {
+    max-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+#gitLogo:hover,#igLogo:hover {
+    transform: scale(-1, 1) scale(1);
+}
+
 /* Photo Animations Below */
 .tiltLeft.show {
     transform: rotate(-15deg);
