@@ -70,6 +70,9 @@ p, li {
 
 #welcomeRight {
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #carouselExampleIndicators {
@@ -79,6 +82,9 @@ p, li {
     margin-top: 2rem;
     margin-bottom: 2rem;
     width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #packages {
