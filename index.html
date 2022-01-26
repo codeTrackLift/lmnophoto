@@ -64,13 +64,13 @@
       <h1 class='text-center mochiFont'>Welcome to LMNO Photography</h1>
       <div id='welcome' class='container-fluid text-light '>
         <hr>
-        <div class='row justify-content-evenly'>
+        <div id='welcomeLeft' class='row justify-content-evenly'>
           <div class='col-sm-5 d-flex' style='align-self:center'>
             <img class='d-none d-sm-block' style='width:33vw' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon.">
           </div>
-          <div class='col-sm-7 d-flex g-2 row'>
+          <div id='welcomeRight' class='photoBG col-sm-7 d-flex g-2 row'>
             <div class='text-center' style='align-self:center'>
-              <p class='h5'>Mrs Lauren Nunn is a professional Philadelaphia photographer and specializes in portraits, headshots, weddings, and events!</p>
+              <p class='h5' style='color:white'>Mrs Lauren Nunn is a professional Philadelaphia photographer and specializes in portraits, headshots, weddings, and events!</p>
             </div>
             <hr class='d-block' style='color:transparent'>
             <div class='text-center' style='align-self:center'>
@@ -82,7 +82,7 @@
       </div>
       
       <hr id='aboutHR' style='color:silver'>
-      <div id="carouselExampleIndicators" class="carousel slide mx-auto" style='height:21vh;min-height:12rem' data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="photoBG carousel slide mx-auto" style='height:21vh;min-height:12rem' data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -258,19 +258,19 @@
           <form class='container-fluid p-1' action="https://formsubmit.co/codetracklift@gmail.com" method="POST">
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Name: </label>
-              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='name' placeholder='Full Name' required>
+              <input class='col-sm-10 photoBG' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='name' placeholder='Full Name' required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Phone: </label>
-              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="tel" name="phone" placeholder='xxx-xxx-xxxx' required>
+              <input class='col-sm-10 photoBG' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="tel" name="phone" placeholder='xxx-xxx-xxxx' required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Email:</label>
-              <input class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="email" name='email' placeholder="your_email@domain.com" required>
+              <input class='col-sm-10 photoBG' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="email" name='email' placeholder="your_email@domain.com" required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Message:</label>
-              <textarea class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' name="message" cols="30" rows="10" placeholder="Tell us about your photography needs!  Is it an event?  What type of event?  When is it?" required></textarea>
+              <textarea class='col-sm-10 photoBG' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' name="message" cols="30" rows="10" placeholder="Tell us about your photography needs!  Is it an event?  What type of event?  When is it?" required></textarea>
             </div>
             <input type="hidden" name="_subject" value="New photography inquiry!">
             <input type="hidden" name="_template" value="basic">
@@ -280,7 +280,7 @@
       </div>
 
       <footer>
-          <div id='footer' class=''>
+          <div id='footer'>
             <div>
               <p>Copyright &#169;         
                 <script>

@@ -11,6 +11,13 @@ html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
 }
 
+.photoBG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+
 h1, h2 {
     color: cyan;
 }
@@ -58,6 +65,11 @@ p, li {
 
 #welcome {
     background-color: transparent;
+}
+
+#welcomeRight {
+    border-radius: 25px;
+    border: 1px solid black;
 }
 
 #carouselExampleIndicators {
@@ -108,7 +120,7 @@ textarea {
 
 #footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 2rem;
     margin: 1.5rem 0 0 0;
 }
