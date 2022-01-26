@@ -255,23 +255,25 @@
         <h5>Do you need professional photography services?</h5>
         <p>Let us know the <strong><u>event type</u></strong> and <strong><u>date</u></strong>.  We look forward to making your photographs <em style='color:cyan'>sing!</em></p>
         <div class='container-fluid'>
-          <form class='container-fluid p-1'>
+          <form class='container-fluid p-1' action="https://formsubmit.co/codetracklift@gmail.com" method="POST">
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Name: </label>
               <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='name' placeholder='Full Name' required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Phone: </label>
-              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name="phone" placeholder='xxx-xxx-xxxx' required>
+              <input class='col-sm-10' style='background-color: black;color:white;border-radius:8px;margin-bottom:0.5rem' type="tel" name="phone" placeholder='xxx-xxx-xxxx' required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Email:</label>
-              <input class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="text" name='email' placeholder="your_email@domain.com" required>
+              <input class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' type="email" name='email' placeholder="your_email@domain.com" required>
             </div>
             <div class='form-item row'>
               <label class='text-start col-sm-2' for="">Message:</label>
-              <textarea class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' name="message" cols="30" rows="10" placeholder="What's the event? When is it?" required></textarea>
+              <textarea class='col-sm-10' style='background-color:black;color:white;border-radius:8px;margin-bottom:0.5rem' name="message" cols="30" rows="10" placeholder="Tell us about your photography needs!  Is it an event?  What type of event?  When is it?" required></textarea>
             </div>
+            <input type="hidden" name="_subject" value="New photography inquiry!">
+            <input type="hidden" name="_template" value="basic">
             <button id='emailButton' class='float-end col-sm-10'>Send Email</button>
           </form>
         </div>

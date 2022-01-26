@@ -94,18 +94,3 @@ var scene10 = new ScrollMagic.Scene({
 })
 .setClassToggle('.scene10', 'show')
 .addTo(controller10);
-
-// Contact Form
-const emailButton = document.querySelector('#emailButton');
-const inputs = document.querySelector('form');
-emailButton.addEventListener('click', () => {
-    Email.send({
-        Host: '',
-        Username: '',
-        Password: '',
-        To: 'test@mermaid.photo',
-        From: inputs.elements['email'].value,
-        Subject: 'Contact Us Query By the Customer',
-        Body: inputs.elements['message'].value + '<br>' + inputs.elements['name'].value + '<br>' + inputs.elements['phone'].value,
-    })
-});
