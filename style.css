@@ -66,6 +66,7 @@ p, li {
 
 #welcome {
     background-color: transparent;
+    max-width: 1280px;
 }
 
 #welcomeRight {
@@ -98,8 +99,15 @@ p, li {
     background-position: center;
 }
 
+#packages>.row>div>ul {
+    /* list-style-type: none; */
+    /* padding: 0;
+    margin: 0; */
+    font-size: large;
+}
+
 #contact {
-    border-radius: 10px;
+    border-radius: 0.25rem;
     margin: 2rem auto;
     padding: 2rem 0;
     max-width: 50rem;
@@ -109,10 +117,17 @@ p, li {
     color: silver;
 }
 
+.form-item>input,.form-item>textarea {
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
 form>button {
     background-color: teal;
     color:white;
-    border-radius: 10px;
+    border-radius: 0.25rem;
 }
 
 form>button:hover {
