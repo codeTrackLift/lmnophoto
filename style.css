@@ -9,6 +9,7 @@ html {
     background-attachment: fixed;
     background-position: bottom center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
+    overflow-x: hidden;
 }
 /* @media (min-width:768px) {
     .photoBG {
