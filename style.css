@@ -93,6 +93,16 @@ p, li {
     transform: scale(1, -1) scale(1, -1);
 }
 
+.btn {
+    transition: all 0.5s ease-in-out
+}
+
+.btn:hover {
+    background-color: transparent;
+    font-size: larger;
+    border-width: 2px;
+}
+
 #welcome {
     background-color: transparent;
     max-width: 1280px;
