@@ -71,10 +71,17 @@ p, li {
 }
 
 #mermaidCameraLogo2 {
-    width: 80vw;
+    width: 90vw;
     opacity: 0.25;
-    padding: 2rem;
+    padding: 3rem;
     margin-top: -18rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:575px) {
+    #welcomeRight>div>.h5 {
+        font-weight: normal !important;
+    }
 }
 
 #contactBtnTop1,#contactBtnTop2 {
