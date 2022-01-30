@@ -5,6 +5,24 @@ function cameraSound() {
 }
 
 // Scroll Magic
+var controllerContactBtnTop1 = new ScrollMagic.Controller();
+var contactBtnTop1 = new ScrollMagic.Scene({
+    triggerElement: '#galleryHR',
+    offset: -300,
+    duration: 500
+})
+.setClassToggle('#contactBtnTop1', 'show')
+.addTo(controllerContactBtnTop1);
+
+var controllerContactBtnTop2 = new ScrollMagic.Controller();
+var contactBtnTop2 = new ScrollMagic.Scene({
+    triggerElement: '#galleryHR',
+    offset: -300,
+    duration: 500
+})
+.setClassToggle('#contactBtnTop2', 'show')
+.addTo(controllerContactBtnTop2);
+
 var controller1 = new ScrollMagic.Controller();
 var scene1 = new ScrollMagic.Scene({
     triggerElement: '.scene1',

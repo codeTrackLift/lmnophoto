@@ -10,14 +10,14 @@ html {
     background-position: bottom center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
 }
-@media (min-width:768px) {
+/* @media (min-width:768px) {
     .photoBG {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-position: bottom center;
     }
-}
+} */
 
 h1, h2 {
     color: cyan;
@@ -64,6 +64,18 @@ p, li {
     transform: rotate(-360deg);
 }
 
+#mermaidCameraLogo {
+    width: 30vmin;
+}
+
+#contactBtnTop1,#contactBtnTop2 {
+    transition: all 0.75s ease-in-out;
+}
+
+#contactBtnTop1.show,#contactBtnTop2.show {
+    transform: scale(1, -1) scale(1, -1);
+}
+
 #welcome {
     background-color: transparent;
     max-width: 1280px;
@@ -90,9 +102,8 @@ p, li {
 
 #packages {
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 0.5rem;
     padding: 1rem;
-    background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/studio.jpg");
     background-size: contain;
     background-attachment: local;
@@ -100,9 +111,6 @@ p, li {
 }
 
 #packages>.row>div>ul {
-    /* list-style-type: none; */
-    /* padding: 0;
-    margin: 0; */
     font-size: large;
 }
 
