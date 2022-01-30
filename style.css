@@ -72,11 +72,11 @@ p, li {
 }
 
 #mermaidCameraLogo2 {
-    width: 95vw;
+    width: 55vw;
     opacity: 0.25;
-    padding: -2rem;
-    margin-top: -19rem;
-    /* margin-bottom: -1rem; */
+    margin-top: -10rem;
+    margin-right: -8rem;
+    margin-bottom: -1rem;
 }
 
 @media (max-width:575px) {
