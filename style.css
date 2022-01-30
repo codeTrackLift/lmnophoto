@@ -65,7 +65,8 @@ p, li {
 }
 
 #mermaidCameraLogo {
-    width: 30vmin;
+    width: 30vmax;
+    opacity: 0.66;
 }
 
 #contactBtnTop1,#contactBtnTop2 {
