@@ -1,16 +1,17 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+*,*::before,*::after {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html {
-    background-color: black;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
-    overflow-x: hidden;
+  background-color: black;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./photos/background.jpg");
+  overflow-x: hidden;
 }
+
 /* @media (min-width:768px) {
     .photoBG {
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
@@ -20,227 +21,264 @@ html {
     }
 } */
 
-h1, h2 {
-    color: cyan;
+h1,h2 {
+  color: cyan;
+  text-shadow: 1px 1px black;
 }
 
 h1 {
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
-h3, h4, h5 {
-    color: teal;
+h3,h4,h5 {
+  color: teal;
 }
 
 h6 {
-    font-size: larger;
+  font-size: larger;
+  text-shadow: 1px 1px black;
 }
 
-p, li {
-    color: silver;
+p,li {
+  color: silver;
 }
 
 .mochiFont {
-    font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .navbar-nav {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .dropdown-item {
-    color: gray;
+  color: gray;
 }
 
 .dropdown-item:hover {
-    background-color: transparent;
-    color: silver;
+  background-color: transparent;
+  color: silver;
 }
 
 #merCamIcon {
-    transition: transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
 }
 
 #merCamIcon:hover {
-    transform: rotate(-360deg);
+  transform: rotate(-360deg);
 }
 
 #mermaidCameraLogo {
-    width: 30vmax;
-    max-width: 480px;
-    opacity: 0.66;
+  width: 30vmax;
+  max-width: 480px;
+  opacity: 0.66;
 }
 
 #mermaidCameraLogo2 {
-    width: 55vw;
-    opacity: 0.25;
-    margin-top: -10rem;
-    margin-right: -8rem;
-    margin-bottom: -1rem;
+  width: 55vw;
+  opacity: 0.25;
+  margin-top: -10rem;
+  margin-right: -8rem;
+  margin-bottom: -1rem;
 }
 
 @media (max-width:575px) {
-    #welcomeRight>div>.h5 {
-        font-weight: normal !important;
-    }
+  #welcomeRight>div>.h5 {
+    font-weight: normal !important;
+  }
 }
 
-#contactBtnTop1,#contactBtnTop2 {
-    transition: all 0.75s ease-in-out;
+#contactBtnTop1,
+#contactBtnTop2 {
+  transition: all 0.75s ease-in-out;
 }
 
-#contactBtnTop1.show,#contactBtnTop2.show {
-    transform: scale(1, -1) scale(1, -1);
+#contactBtnTop1.show,
+#contactBtnTop2.show {
+  transform: scale(1, -1) scale(1, -1);
 }
 
 .btn {
-    transition: all 0.5s ease-in-out
+  transition: all 0.5s ease-in-out
 }
 
 .btn:hover {
-    background-color: transparent;
-    font-size: larger;
-    border-width: 2px;
+  background-color: transparent;
+  font-size: larger;
+  border-width: 2px;
 }
 
 #welcome {
-    background-color: transparent;
-    max-width: 1280px;
+  background-color: transparent;
+  max-width: 1280px;
 }
 
 #welcomeRight {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #carouselExampleIndicators {
-    border: 1px solid silver;
-    border-radius: 10px;
-    padding-top: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blockquote {
+  text-shadow: 1px 1px black;
+}
+
+figcaption {
+  color: white !important;
 }
 
 #packages {
-    border: 1px solid white;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/studio.jpg");
-    background-size: contain;
-    background-attachment: local;
-    background-position: center;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/studio.jpg");
+  background-size: contain;
+  background-attachment: local;
+  background-position: center;
 }
 
 #packages>.row>div>ul {
-    font-size: large;
+  font-size: large;
 }
 
 #contact {
-    border-radius: 0.25rem;
-    margin: 2rem auto;
-    padding: 2rem 0;
-    max-width: 50rem;
+  border-radius: 0.25rem;
+  margin: 2rem auto;
+  padding: 2rem 0;
+  max-width: 50rem;
 }
 
 .form-item {
-    color: silver;
+  color: silver;
 }
 
-.form-item>input,.form-item>textarea {
-    border-radius: 0.25rem;
-    background-color: black;
-    color: white;
-    margin-bottom: 0.5rem;
+.form-item>input,
+.form-item>textarea {
+  border-radius: 0.25rem;
+  background-color: black;
+  color: white;
+  margin-bottom: 0.5rem;
 }
 
 form>button {
-    background-color: teal;
-    color:white;
-    border-radius: 0.25rem;
+  background-color: teal;
+  color: white;
+  border-radius: 0.25rem;
 }
 
 form>button:hover {
-    background-color: cyan;
-    color: black
+  background-color: cyan;
+  color: black
 }
 
 textarea {
-    resize: none;
+  resize: none;
 }
 
 #footer {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 1.5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1.5rem 0 0 0;
 }
 
 #footer>div {
-    display: flex;
-    flex: row;
-    gap: 0.5rem;
+  display: flex;
+  flex: row;
+  gap: 0.5rem;
 }
 
-#cbpLogo,#igLogo {
-    max-height: 1.5rem;
-    transition: transform 0.5s ease-in-out;
+#cbpLogo,
+#igLogo {
+  max-height: 1.5rem;
+  transition: transform 0.5s ease-in-out;
 }
 
-#cbpLogo:hover,#igLogo:hover {
-    transform: scale(-1, 1) scale(1);
+#cbpLogo:hover,
+#igLogo:hover {
+  transform: scale(-1, 1) scale(1);
 }
 
 #cbpLogo {
-    animation: slowSpin 5s ease-in-out infinite;
+  animation: slowSpin 5s ease-in-out infinite;
 }
 
 @keyframes slowSpin {
-    0% { 
-        transform: scale(1); 
-    }
-    50% {
-        transform: scale(-1, 1);
-    }
-    100% { 
-        transform: scale(1); 
-    }
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(-1, 1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Photo Animations Below */
 .tiltLeft.show {
-    transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
 .tiltRight.show {
-    transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 
-.row>.float-start, .row>.float-end {
-    transition: transform 0.5s ease-in-out;
+.row>.float-start,
+.row>.float-end {
+  transition: transform 0.5s ease-in-out;
 }
 
 .row>.float-start:hover {
-    transform: rotate(-0.05turn) scale(0.8);
-    opacity: .5;
+  transform: rotate(-0.05turn) scale(0.8);
+  opacity: .5;
 }
 
 .row>.float-end:hover {
-    transform: rotate(0.05turn) scale(0.8);
-    opacity: .5;
+  transform: rotate(0.05turn) scale(0.8);
+  opacity: .5;
 }
 
-.scene1,.scene2,.scene3,.scene4,.scene5,.scene6,.scene7,.scene8,.scene9,.scene10 {
-    opacity: 0;
-    transition: 1s;
+.scene1,
+.scene2,
+.scene3,
+.scene4,
+.scene5,
+.scene6,
+.scene7,
+.scene8,
+.scene9,
+.scene10 {
+  opacity: 0;
+  transition: 1s;
 }
 
-.scene1.show,.scene2.show,.scene3.show,.scene4.show,.scene5.show,.scene6.show,.scene7.show,.scene8.show,.scene9.show,.scene10.show {
-    opacity: 1;
+.scene1.show,
+.scene2.show,
+.scene3.show,
+.scene4.show,
+.scene5.show,
+.scene6.show,
+.scene7.show,
+.scene8.show,
+.scene9.show,
+.scene10.show {
+  opacity: 1;
 }
+
 /* Photo Animations Above */

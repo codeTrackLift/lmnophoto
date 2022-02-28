@@ -1,409 +1,452 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name='description' content='Lauren Nunn Philadelaphia photographer photography photograph wedding bridal engagement baby shower pictures studio event'>
 
-    <!-- Bootstrap Link -->
-    <link rel="stylesheet" href="./plugins/bootstrap.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    
-    <!-- Font CSS Links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
-    <!-- Scroll Magic JS -->
-    <script src="./plugins/ScrollMagic.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name='description'
+    content='Lauren Nunn Philadelaphia photographer photography photograph wedding bridal engagement baby shower pictures studio event'>
 
-    <!-- My CSS & JS -->
-    <link rel="stylesheet" href="./style.css">
-    <script src='./index.js' defer></script>
-    <link rel="shortcut icon" type='image/x-icon' href="./favicon.ico">
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="./plugins/bootstrap.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
-    <title>L.M.N.O.P.hotography</title>
-  </head>
-  <body class='bg-transparent'>
-    <div class='container-fluid'>
+  <!-- Font CSS Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 
-      <!-- Nav bar -->
-      <nav class="navbar sticky-top navbar-dark bg-transparent">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span style='color:teal' class="navbar-toggler-icon"></span style='color:teal'>
-          </button>
-          <div class="collapse navbar-collapse bg-black photoBG" id="navbarNavDropdown" style='border-radius:10px'>
-            <ul class="navbar-nav">
-              <li class="nav-item d-flex" style='gap:1rem;align-items:center;'>
-                <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img id='merCamIcon' src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'></a><h5 class='d-flex mochiFont pt-2' style='color:cyan'>L.M.N.O.P.<span style='color:teal' class='mochiFont'>hotography</span></h5>
-                <hr>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#aboutHR">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#galleryHR">Gallery</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#packagesHR" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pricing & Packages
-                </a>
-                <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#packagesHR">The Premier</a></li>
-                  <li><a class="dropdown-item" href="#thePremier">True Blue</a></li>
-                  <li><a class="dropdown-item" href="#trueBlue">Romance Silver</a></li>
-                  <li><a class="dropdown-item" href="#romanceSilver">Classic Gold</a></li>
-                  <li><a class="dropdown-item" href="#classicGold">Stunning Sapphire</a></li>
-                  <li><a class="dropdown-item" href="#stunningSapphire">Forever Platinum</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+  <!-- Scroll Magic JS -->
+  <script src="./plugins/ScrollMagic.min.js"></script>
+
+  <!-- My CSS & JS -->
+  <link rel="stylesheet" href="./style.css">
+  <script src='./index.js' defer></script>
+  <link rel="shortcut icon" type='image/x-icon' href="./favicon.ico">
+
+  <title>L.M.N.O.P.hotography</title>
+</head>
+
+<body class='bg-transparent'>
+  <div class='container-fluid'>
+
+    <!-- Nav bar -->
+    <nav class="navbar sticky-top navbar-dark bg-transparent">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span style='color:teal' class="navbar-toggler-icon"></span style='color:teal'>
+        </button>
+        <div class="collapse navbar-collapse bg-black photoBG" id="navbarNavDropdown" style='border-radius:10px'>
+          <ul class="navbar-nav">
+            <li class="nav-item d-flex" style='gap:1rem;align-items:center;'>
+              <a class="nav-link active" aria-current="page" href="#" onclick='cameraSound()'><img id='merCamIcon'
+                  src="./pics/mermaid_camera.gif" alt="Mermaid camera icon" style='width:3rem'></a>
+              <h5 class='d-flex mochiFont pt-2' style='color:cyan'>L.M.N.O.P.<span style='color:teal'
+                  class='mochiFont'>hotography</span></h5>
+              <hr>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutHR">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galleryHR">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#packagesHR" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Pricing & Packages
+              </a>
+              <ul class="dropdown-menu bg-transparent" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#packagesHR">The Premier</a></li>
+                <li><a class="dropdown-item" href="#thePremier">True Blue</a></li>
+                <li><a class="dropdown-item" href="#trueBlue">Romance Silver</a></li>
+                <li><a class="dropdown-item" href="#romanceSilver">Classic Gold</a></li>
+                <li><a class="dropdown-item" href="#classicGold">Stunning Sapphire</a></li>
+                <li><a class="dropdown-item" href="#stunningSapphire">Forever Platinum</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- Welcome Section -->
-      <h1 class='text-center mochiFont h1'>L<span style='color:teal' class='mochiFont'>auren</span style='color:teal'> M<span style='color:teal' class='mochiFont'>archese</span style='color:teal' class='mochiFont'> N<span style='color:teal' class='mochiFont'>unn</span style='color:teal'> O<span style='color:teal' class='mochiFont'>ptimal</span style='color:teal'> P<span style='color:teal' class='mochiFont'>hotography</span style='color:teal'></h1>
-      <div id='welcome' class='container-fluid text-light'>
-        <hr>
-        <div id='welcomeLeft' class='row justify-content-evenly'>
-          <div class='col-sm-5 d-flex d-none d-sm-block text-center' style='align-self:center'>
-            <img id='mermaidCameraLogo' src="./pics/mermaid_camera.gif" alt="Mermaid camera logo.">
-            <hr style='color:transparent'>
-            <h6>Schedule your photoshoot <em><u>today</u></em>!</h6>
-            <button id='contactBtnTop2' style='background-color:transparent;border:none'><a class='btn btn-primary' href="#contact">Contact Me!</a></button>
+    <!-- Welcome Section -->
+    <h1 class='text-center mochiFont h1'>L<span style='color:teal' class='mochiFont'>auren</span style='color:teal'>
+      M<span style='color:teal' class='mochiFont'>archese</span style='color:teal' class='mochiFont'> N<span
+        style='color:teal' class='mochiFont'>unn</span style='color:teal'> O<span style='color:teal'
+        class='mochiFont'>ptimal</span style='color:teal'> P<span style='color:teal' class='mochiFont'>hotography</span
+        style='color:teal'></h1>
+    <div id='welcome' class='container-fluid text-light'>
+      <hr>
+      <div id='welcomeLeft' class='row justify-content-evenly'>
+        <div class='col-sm-5 d-flex d-none d-sm-block text-center' style='align-self:center'>
+          <img id='mermaidCameraLogo' src="./pics/mermaid_camera.gif" alt="Mermaid camera logo.">
+          <hr style='color:transparent'>
+          <h6>Schedule your photoshoot <em><u>today</u></em>!</h6>
+          <button id='contactBtnTop2' style='background-color:transparent;border:none'><a class='btn btn-primary'
+              href="#contact">Contact Me!</a></button>
+        </div>
+        <div id='welcomeRight' class='photoBG col-sm-7 d-flex g-2 row'>
+          <div class='text-center' style='align-self:center;'>
+            <p class='h5' style='color:silver;font-weight:normal;text-shadow:1px 1px black;'>Mrs. Lauren Nunn is a photographer in the King of
+              Prussia / Philadelphia area who specializes in portraits, engagement / maternity sessions, small weddings
+              and other events.</p>
           </div>
-          <div id='welcomeRight' class='photoBG col-sm-7 d-flex g-2 row'>
-            <div class='text-center' style='align-self:center;'>
-              <p class='h5' style='color:white;font-weight:lighter;'>Mrs. Lauren Nunn is a photographer in the King of Prussia / Philadelphia area who specializes in portraits, engagement / maternity sessions, small weddings and other events.</p>
-            </div>
-            <hr class='d-block' style='color:transparent'>
-            <div class='text-center' style='align-self:center;max-width:360px;'>
-              <p class='h6' style='color:coral'>"A good photo can say a thousand words, a great one will <em>sing</em> them!"</p>
-              <p class='text-end mochiFont' style='color:cyan;font-size:smaller;'>-<img class='p-1' src="./pics/instagram.png" alt="Instagram Logo" style='height:1.5rem'>mrsmermade4u, 2020</p>
-            </div>
-            <div class='d-block d-sm-none d-flex flex-column' style='justify-content:space-evenly;align-items:center;'>
-              <img id='mermaidCameraLogo2' src="./pics/mermaid_camera.gif" alt="Mermaid camera logo.">
-              <div class='row'>
-                <button class='col' id='contactBtnTop2' style='background-color:transparent;border:none;min-width:fit-content;'><a class='btn btn-primary' href="#contact">Contact Me!</a></button>
-                <p class='pt-3 col' style='color:white'>Schedule your photoshoot <em><u>today</u></em>!</p>
-              </div>
+          <hr class='d-block' style='color:transparent'>
+          <div class='text-center' style='align-self:center;max-width:360px;'>
+            <p class='h6' style='color:coral'>"A good photo can say a thousand words, a great one will <em>sing</em>
+              them!"</p>
+            <p class='text-end mochiFont' style='color:cyan;font-size:smaller;'>-<img class='p-1'
+                src="./pics/instagram.png" alt="Instagram Logo" style='height:1.5rem'>mrsmermade4u, 2020</p>
+          </div>
+          <div class='d-block d-sm-none d-flex flex-column' style='justify-content:space-evenly;align-items:center;'>
+            <img id='mermaidCameraLogo2' src="./pics/mermaid_camera.gif" alt="Mermaid camera logo.">
+            <div class='row'>
+              <button class='col' id='contactBtnTop2'
+                style='background-color:transparent;border:none;min-width:fit-content;'><a class='btn btn-primary'
+                  href="#contact">Contact Me!</a></button>
+              <p class='pt-3 col' style='color:white'>Schedule your photoshoot <em><u>today</u></em>!</p>
             </div>
           </div>
         </div>
       </div>
-      
-      <!-- Carsouel for Quotes & Feedback -->
-      <hr id='aboutHR' style='color:transparent'>
-      <div id="carouselExampleIndicators" class="photoBG carousel slide mx-auto" style='height:15rem;max-width:1280px;' data-bs-ride="carousel">
-        <!-- <div class="carousel-indicators">
+    </div>
+
+    <!-- Carsouel for Quotes & Feedback -->
+    <hr id='aboutHR' style='color:transparent'>
+    <div id="carouselExampleIndicators" class="photoBG carousel slide mx-auto" style='height:15rem;max-width:1280px;'
+      data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div> -->
-        <div class="carousel-inner my-auto p-3">
-          <div class="carousel-item active">
-            <figure class='mx-auto'>
-              <div class="blockquote d-block text-center">
-                <h3 class='h4'><em>"I cannot stop looking at these gorgeous photos Lauren took of us! She captured each moment so beautifully- thank you!"</em></h3>
-              </div><br>
-              <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem;'>
-                Melanie and Atreju, <cite title="Source Title">2021</cite>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="carousel-item">
-            <figure class='mx-auto'>
-              <div class="blockquote d-block text-center">
-                <h3><em>"We had so much fun during the engagement shoot- we LOVE the photos, and Lauren!"</em></h3>
-              </div><br>
-              <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem'>
-                Jen and Matt, <cite title="Source Title">2021</cite>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="carousel-item">
-            <figure class='mx-auto'>
-              <div class="blockquote d-block text-center">
-                <h3><em>"A good picture can say a thousand words, a great one will sing them" </em></h3>
-              </div><br>
-              <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem'>
-                <img src="./pics/instagram.png" alt="Instagram Logo" style='height:1.5rem' class='p-1'>mrsmermade4u, <cite title="Source Title">2022</cite>
-              </figcaption>
-            </figure>
-          </div>
+      <div class="carousel-inner my-auto p-3">
+        <div class="carousel-item active">
+          <figure class='mx-auto'>
+            <div class="blockquote d-block text-center">
+              <h3 class='h4'><em>"I cannot stop looking at these gorgeous photos Lauren took of us! She captured each
+                  moment so beautifully- thank you!"</em></h3>
+            </div><br>
+            <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem;'>
+              Melanie and Atreju, <cite title="Source Title">2021</cite>
+            </figcaption>
+          </figure>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span style='color:teal' class="carousel-control-prev-icon" aria-hidden="true"></span style='color:teal'>
-          <span style='color:teal' class="visually-hidden">Previous</span style='color:teal'>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span style='color:teal' class="carousel-control-next-icon" aria-hidden="true"></span style='color:teal'>
-          <span style='color:teal' class="visually-hidden">Next</span style='color:teal'>
-        </button>
-      </div>
-
-      <hr id='galleryHR' style='color:transparent;'>
-      <div id='gallery' class='container-sm text-light'>
-          <div class='row'>
-              <div class='col-sm-4 float-start'>
-                  <a href="./photos/dog1_portrait1.jpg" target='_blank'>
-                      <img src="./photos/dog1_portrait1.jpg" class="scene1 img-fluid img-thumbnail rounded mx-10" alt="A huskey with fall background.">
-                  </a>
-              </div>
-              <div class='col-sm-6 float-end'>
-                  <a href="./photos/ring_landscape.jpg" target='_blank'>
-                      <img src="./photos/ring_landscape.jpg" class="scene2 tiltLeft img-fluid img-thumbnail rounded m-3" alt="An engagement ring, a couple are holding hands.">
-                  </a>
-              </div>
-          </div>
-          <div class='row'>
-              <div class='col-sm-6 float-start'>
-                  <a href="./photos/babyfeet_landscape.jpg" target='_blank'>
-                      <img src="./photos/babyfeet_landscape.jpg" class="scene3 img-fluid img-thumbnail float-start m-5" alt="Photograph of baby feet with a green blanket.">
-                  </a>
-              </div>
-              <div class='col-sm-4 float-end'>
-                  <a href="./photos/dog2_portrait.jpg" target='_blank'>
-                      <img src="./photos/dog2_portrait.jpg" class="scene4 mg-fluid img-thumbnail float-end my-1" alt="A friendly dog wearing a red tie.">
-                  </a>
-              </div>
-          </div>
-          <div class='row'>
-              <div class='col-sm-8 float-start'>
-                  <a href="./photos/personcouch_landscape.jpg" target='_blank'>
-                      <img src="./photos/personcouch_landscape.jpg" class="scene5 tiltRight img-fluid img-thumbnail rounded my-3" alt="Pregnant person wearing green and lying on gray couch.">
-                  </a>
-              </div>
-              <div class='col-sm-4 float-end'>
-                  <a href="./photos/ring_portrait.jpg" target='_blank'>
-                      <img src="./photos/ring_portrait.jpg" class="scene6 img-fluid img-thumbnail rounded m-3" alt="An engagement ring, bride-to-be is wearing a pink sweater.">
-                  </a>
-              </div>
-          </div>
-          <div class='row'>
-              <div class='col-sm-4 float-start'>
-                  <a href="./photos/persontree_portrait.jpg" target='_blank'>
-                      <img src="./photos/persontree_portrait.jpg" class="scene7 img-fluid img-thumbnail float-start m-5" alt="A person wearing white leaning against a tree.">
-                  </a>
-              </div>
-              <div class='col-sm-7 float-end'>
-                  <a href="./photos/dog1_portrait2.jpg" target='_blank'>
-                      <img src="./photos/dog1_portrait2.jpg" class="scene8 img-fluid img-thumbnail float-end m-3" alt="Friendly huskey looking up, grass and leaves in background.">
-                  </a>
-              </div>
-          </div>
-          <div class='row'>
-            <div class='col-sm-8 float-start'>
-                <a href="./photos/groupbw_landscape.jpg" target='_blank'>
-                    <img src="./photos/groupbw_landscape.jpg" class="scene9 tiltLeft img-fluid img-thumbnail rounded mx-10" alt="A black and white photograph of family lying down heads together.">
-                </a>
-            </div>
-            <div class='col-sm-4 float-end'>
-                <a href="./photos/couple_portrait.jpg" target='_blank'>
-                    <img src="./photos/couple_portrait.jpg" class="scene10 img-fluid img-thumbnail rounded m-3" alt="A happy couple!">
-                </a>
-            </div>
+        <div class="carousel-item">
+          <figure class='mx-auto'>
+            <div class="blockquote d-block text-center">
+              <h3><em>"We had so much fun during the engagement shoot- we LOVE the photos, and Lauren!"</em></h3>
+            </div><br>
+            <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem'>
+              Jen and Matt, <cite title="Source Title">2021</cite>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="carousel-item">
+          <figure class='mx-auto'>
+            <div class="blockquote d-block text-center">
+              <h3><em>"Lauren captured beautiful family moments that I was proud to share with family and friends in our yearly Christmas card." </em></h3>
+            </div><br>
+            <figcaption class="blockquote-footer text-end" style='margin-bottom:2rem'>
+              An Amazing Family, <cite title="Source Title">2022</cite>
+            </figcaption>
+          </figure>
         </div>
       </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span style='color:teal' class="carousel-control-prev-icon" aria-hidden="true"></span style='color:teal'>
+        <span style='color:teal' class="visually-hidden">Previous</span style='color:teal'>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span style='color:teal' class="carousel-control-next-icon" aria-hidden="true"></span style='color:teal'>
+        <span style='color:teal' class="visually-hidden">Next</span style='color:teal'>
+      </button>
+    </div>
 
-      <hr id='packagesHR'>
-      <div id='packages' class='container text-light' style='width:80vw'>
-          <div class='row text-center'>
-            <h2 class='mochiFont'>Packages & Pricing</h2>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='thePremier' class='mochiFont'>The Premier</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>Ideal for engagement or maternity sessions</li>
-                    <li>Great for local photoshoots</li>
-                    <li>20mi of Norristown, PA</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $250</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>60-90 mins</p>
-                </div>
-              </div>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='trueBlue' class='mochiFont'>True Blue</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>Ideal for elopements</li>
-                    <li>Pre-ceremony, preparation, ceremony, walkout / receiving line </li>
-                    <li>Details: Dress, rings, flowers, special heirlooms</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $400</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>2 hours</p>
-                </div>
-              </div>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='romanceSilver' class='mochiFont'>Romance Silver</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>Ideal for elopements and intimate gatherings</li>
-                    <li>Bride and groom preparations</li>
-                    <li>Details: Dress, rings, flowers, special heirlooms), first look, ceremony, walkout / receiving line</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $700</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>3 hours</p>
-                </div>
-              </div>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='classicGold' class='mochiFont'>Classic Gold</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>60-90 min engagement shoot (prior to wedding day)</li>
-                    <li>"Day Of" Preparations: Bride & bridesmaids, Groom & groomsmen</li>
-                    <li>Details: dress, rings, flowers, special heirlooms</li>
-                    <li>First look, ceremony, walkout / receiving line, first dances / speeches.</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $1,500</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>5 hours (Half-Day)</p>
-                </div>
-              </div>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='stunningSapphire' class='mochiFont'>Stunning Sapphire</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>60-90 min engagement shoot (prior to wedding day).</li>
-                    <li>"Day Of" Preparations: Bride & bridesmaids, Groom & groomsmen</li>
-                    <li>Details: dress, rings, flowers, special heirlooms</li>
-                    <li>First look, ceremony, walkout / receiving line, first dances / speeches</li>
-                    <li>Dancing / drinking / partying!</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $2,500</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>8 hours (Full Day)</p>
-                </div>
-              </div>
-          </div>
-          <hr>
-          <div class='row justify-content-evenly mx-auto'>
-              <div class='col-md-3 my-auto text-center'>
-                  <h4 id='foreverPlatinum' class='mochiFont'>Forever Platinum</h4>
-              </div>
-              <div class='col-sm-6 my-auto'>
-                  <ul>
-                    <li>60-90 min engagement shoot (prior to wedding day)</li>
-                    <li>"Day Of" Preparations: Bride & bridesmaids, Groom and groomsmen</li>
-                    <li>Details: Dress, rings, flowers, special heirlooms</li>
-                    <li>First look, ceremony, walkout / receiving line, first dances / speeches</li>
-                    <li>Dancing / drinking / partying</li>
-                    <li>End of party shenanigans (i.e. sparkler send-off)</li>
-                  </ul>
-              </div>
-              <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Cost:</span> $3,000</p>
-                </div>
-                <div class='text-end'>
-                  <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>9+ hours (Day & Night)</p>
-                </div>
-              </div>
-              <hr>
-              <p class='text-center' style='color:gray'>All prices include a single photographer</p>
-          </div>
-
-      </div>
-
-      <div id='contact' class='container text-light text-center' style='width:80vw'>
-        <h2 class='mochiFont'>Contact Me!</h2>
-        <h5>Do you need professional photography services?</h5>
-        <p>Let me know the <strong><u>event type</u></strong> and <strong><u>date</u></strong>.  I look forward to making your photographs <em class='mochiFont' style='color:cyan'>sing!</em></p>
-        <div class='container-fluid'>
-          <form class='container-fluid p-1' action="https://formsubmit.co/f61adf2ff38bc5c4deb30cb261bf1ec0" method="POST">
-            <div class='form-item row'>
-              <label class='text-start col-sm-2' for="">Name: </label>
-              <input class='col-sm-10 photoBG' type="text" name='name' placeholder='Full Name' required>
-            </div>
-            <div class='form-item row'>
-              <label class='text-start col-sm-2' for="">Phone: </label>
-              <input class='col-sm-10 photoBG' type="tel" name="phone" placeholder='xxx-xxx-xxxx' required>
-            </div>
-            <div class='form-item row'>
-              <label class='text-start col-sm-2' for="">Email:</label>
-              <input class='col-sm-10 photoBG' type="email" name='email' placeholder="your_email@domain.com" required>
-            </div>
-            <div class='form-item row'>
-              <label class='text-start col-sm-2' for="">Message:</label>
-              <textarea class='col-sm-10 photoBG' name="message" cols="30" rows="10" placeholder="Tell us about your photography needs!  Is it an event?  What type of event?  When is it?" required></textarea>
-            </div>
-            <input type="hidden" name="_subject" value="New L.M.N.O.P.hotography Inquiry!">
-            <input type="hidden" name="_template" value="basic">
-            <button id='emailButton' class='btn float-end col-sm-10 btn-primary'>Send Email</button>
-          </form>
+    <hr id='galleryHR' style='color:transparent;'>
+    <div id='gallery' class='container-sm text-light'>
+      <div class='row'>
+        <div class='col-sm-4 float-start'>
+          <a href="./photos/dog1_portrait1.jpg" target='_blank'>
+            <img src="./photos/dog1_portrait1.jpg" class="scene1 img-fluid img-thumbnail rounded mx-10"
+              alt="A huskey with fall background.">
+          </a>
+        </div>
+        <div class='col-sm-6 float-end'>
+          <a href="./photos/ring_landscape.jpg" target='_blank'>
+            <img src="./photos/ring_landscape.jpg" class="scene2 tiltLeft img-fluid img-thumbnail rounded m-3"
+              alt="An engagement ring, a couple are holding hands.">
+          </a>
         </div>
       </div>
+      <div class='row'>
+        <div class='col-sm-6 float-start'>
+          <a href="./photos/babyfeet_landscape.jpg" target='_blank'>
+            <img src="./photos/babyfeet_landscape.jpg" class="scene3 img-fluid img-thumbnail float-start m-5"
+              alt="Photograph of baby feet with a green blanket.">
+          </a>
+        </div>
+        <div class='col-sm-4 float-end'>
+          <a href="./photos/dog2_portrait.jpg" target='_blank'>
+            <img src="./photos/dog2_portrait.jpg" class="scene4 mg-fluid img-thumbnail float-end my-1"
+              alt="A friendly dog wearing a red tie.">
+          </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-sm-8 float-start'>
+          <a href="./photos/personcouch_landscape.jpg" target='_blank'>
+            <img src="./photos/personcouch_landscape.jpg" class="scene5 tiltRight img-fluid img-thumbnail rounded my-3"
+              alt="Pregnant person wearing green and lying on gray couch.">
+          </a>
+        </div>
+        <div class='col-sm-4 float-end'>
+          <a href="./photos/ring_portrait.jpg" target='_blank'>
+            <img src="./photos/ring_portrait.jpg" class="scene6 img-fluid img-thumbnail rounded m-3"
+              alt="An engagement ring, bride-to-be is wearing a pink sweater.">
+          </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-sm-4 float-start'>
+          <a href="./photos/persontree_portrait.jpg" target='_blank'>
+            <img src="./photos/persontree_portrait.jpg" class="scene7 img-fluid img-thumbnail float-start m-5"
+              alt="A person wearing white leaning against a tree.">
+          </a>
+        </div>
+        <div class='col-sm-7 float-end'>
+          <a href="./photos/dog1_portrait2.jpg" target='_blank'>
+            <img src="./photos/dog1_portrait2.jpg" class="scene8 img-fluid img-thumbnail float-end m-3"
+              alt="Friendly huskey looking up, grass and leaves in background.">
+          </a>
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-sm-8 float-start'>
+          <a href="./photos/groupbw_landscape.jpg" target='_blank'>
+            <img src="./photos/groupbw_landscape.jpg" class="scene9 tiltLeft img-fluid img-thumbnail rounded mx-10"
+              alt="A black and white photograph of family lying down heads together.">
+          </a>
+        </div>
+        <div class='col-sm-4 float-end'>
+          <a href="./photos/couple_portrait.jpg" target='_blank'>
+            <img src="./photos/couple_portrait.jpg" class="scene10 img-fluid img-thumbnail rounded m-3"
+              alt="A happy couple!">
+          </a>
+        </div>
+      </div>
+    </div>
 
-      <footer>
-          <div id='footer'>
-            <div>
-              <p>Copyright &#169;         
-                <script>
-                  document.write(new Date().getFullYear())
-                </script> 
-              <span style='color:teal'>L.M.N.O.P.hotography</span style='color:teal'></p>
-            </div>
-            <div class="my-auto">
-              <a href="https://www.instagram.com/mrsmermade4u/" target="_blank"><img id='igLogo' src="./pics/instagram.png" alt="Instagram Logo" style='height:1.5rem'></a><p class='mochiFont' style='color:cyan'>mrsmermade4u</p>
-            </div>
+    <hr id='packagesHR'>
+    <div id='packages' class='container text-light' style='width:80vw'>
+      <div class='row text-center'>
+        <h2 class='mochiFont'>Packages & Pricing</h2>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='thePremier' class='mochiFont'>The Premier</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>Ideal for engagement or maternity sessions</li>
+            <li>Great for local photoshoots</li>
+            <li>20mi of Norristown, PA</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $250</p>
           </div>
-          <div class='d-flex gap-2 my-auto' style='justify-content:center'>
-            <p style='color:dimgray'>Website 
-            <a href="https://www.codebypete.com" target="_blank" style="text-decoration:none;color:dimgray;"><img id="cbpLogo" style='opacity:0.5' src="http://www.codebypete.com/pics/pharma2code_icon.gif" alt="codeByPete Logo"><span style="font-style:italic;"> codeByPete</span></a></p>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>60-90 mins</p>
           </div>
-      </footer>
-    </div>  
+        </div>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='trueBlue' class='mochiFont'>True Blue</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>Ideal for elopements</li>
+            <li>Pre-ceremony, preparation, ceremony, walkout / receiving line </li>
+            <li>Details: Dress, rings, flowers, special heirlooms</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $400</p>
+          </div>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>2 hours</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='romanceSilver' class='mochiFont'>Romance Silver</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>Ideal for elopements and intimate gatherings</li>
+            <li>Bride and groom preparations</li>
+            <li>Details: Dress, rings, flowers, special heirlooms), first look, ceremony, walkout / receiving line</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $700</p>
+          </div>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>3 hours</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='classicGold' class='mochiFont'>Classic Gold</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>60-90 min engagement shoot (prior to wedding day)</li>
+            <li>"Day Of" Preparations: Bride & bridesmaids, Groom & groomsmen</li>
+            <li>Details: dress, rings, flowers, special heirlooms</li>
+            <li>First look, ceremony, walkout / receiving line, first dances / speeches.</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $1,500</p>
+          </div>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>5 hours (Half-Day)</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='stunningSapphire' class='mochiFont'>Stunning Sapphire</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>60-90 min engagement shoot (prior to wedding day).</li>
+            <li>"Day Of" Preparations: Bride & bridesmaids, Groom & groomsmen</li>
+            <li>Details: dress, rings, flowers, special heirlooms</li>
+            <li>First look, ceremony, walkout / receiving line, first dances / speeches</li>
+            <li>Dancing / drinking / partying!</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $2,500</p>
+          </div>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>8 hours (Full Day)</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class='row justify-content-evenly mx-auto'>
+        <div class='col-md-3 my-auto text-center'>
+          <h4 id='foreverPlatinum' class='mochiFont'>Forever Platinum</h4>
+        </div>
+        <div class='col-sm-6 my-auto'>
+          <ul>
+            <li>60-90 min engagement shoot (prior to wedding day)</li>
+            <li>"Day Of" Preparations: Bride & bridesmaids, Groom and groomsmen</li>
+            <li>Details: Dress, rings, flowers, special heirlooms</li>
+            <li>First look, ceremony, walkout / receiving line, first dances / speeches</li>
+            <li>Dancing / drinking / partying</li>
+            <li>End of party shenanigans (i.e. sparkler send-off)</li>
+          </ul>
+        </div>
+        <div class='col-sm-3 my-auto d-flex flex-wrap justify-content-evenly'>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Cost:</span> $3,000</p>
+          </div>
+          <div class='text-end'>
+            <p><span style='font-weight:bolder;color:white;'>Time Commitment:</span> <br>9+ hours (Day & Night)</p>
+          </div>
+        </div>
+        <hr>
+        <p class='text-center' style='color:gray'>All prices include a single photographer</p>
+      </div>
 
-    <!-- JS Plugins: Bootstrap, SMTP -->
-    <script src="./plugins/bootstrap.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-  </body>
+    </div>
+
+    <div id='contact' class='container text-light text-center' style='width:80vw'>
+      <h2 class='mochiFont'>Contact Me!</h2>
+      <h5>Do you need professional photography services?</h5>
+      <p>Let me know the <strong><u>event type</u></strong> and <strong><u>date</u></strong>. I look forward to making
+        your photographs <em class='mochiFont' style='color:cyan'>sing!</em></p>
+      <div class='container-fluid'>
+        <form class='container-fluid p-1' action="https://formsubmit.co/f61adf2ff38bc5c4deb30cb261bf1ec0" method="POST">
+          <div class='form-item row'>
+            <label class='text-start col-sm-2' for="">Name: </label>
+            <input class='col-sm-10 photoBG' type="text" name='name' placeholder='Full Name' required>
+          </div>
+          <div class='form-item row'>
+            <label class='text-start col-sm-2' for="">Phone: </label>
+            <input class='col-sm-10 photoBG' type="tel" name="phone" placeholder='xxx-xxx-xxxx' required>
+          </div>
+          <div class='form-item row'>
+            <label class='text-start col-sm-2' for="">Email:</label>
+            <input class='col-sm-10 photoBG' type="email" name='email' placeholder="your_email@domain.com" required>
+          </div>
+          <div class='form-item row'>
+            <label class='text-start col-sm-2' for="">Message:</label>
+            <textarea class='col-sm-10 photoBG' name="message" cols="30" rows="10"
+              placeholder="Tell us about your photography needs!  Is it an event?  What type of event?  When is it?"
+              required></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="New L.M.N.O.P.hotography Inquiry!">
+          <input type="hidden" name="_template" value="basic">
+          <button id='emailButton' class='btn float-end col-sm-10 btn-primary'>Send Email</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div id='footer'>
+        <div>
+          <p>Copyright &#169;
+            <script>
+              document.write(new Date().getFullYear())
+            </script>
+            <span style='color:teal'>L.M.N.O.P.hotography</span style='color:teal'></p>
+        </div>
+        <div class="my-auto">
+          <a href="https://www.instagram.com/mrsmermade4u/" target="_blank"><img id='igLogo' src="./pics/instagram.png"
+              alt="Instagram Logo" style='height:1.5rem'></a>
+          <p class='mochiFont' style='color:cyan'>mrsmermade4u</p>
+        </div>
+      </div>
+      <div class='d-flex gap-2 my-auto' style='justify-content:center'>
+        <p style='color:dimgray'>Website
+          <a href="https://www.codebypete.com" target="_blank" style="text-decoration:none;color:dimgray;"><img
+              id="cbpLogo" style='opacity:0.5' src="http://www.codebypete.com/pics/pharma2code_icon.gif"
+              alt="codeByPete Logo"><span style="font-style:italic;"> codeByPete</span></a></p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- JS Plugins: Bootstrap, SMTP -->
+  <script src="./plugins/bootstrap.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
 </html>
