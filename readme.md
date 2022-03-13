@@ -1,6 +1,6 @@
 # <img src='https://www.lmnophoto.biz/pics/mermaid_camera.gif' alt='Mermaid Camera logo' width='30'> LMNOPhoto.biz
 
->Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a Photography Session!
+Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a Photography Session!
 
 >**Skills Utilized**:
 <ol>
