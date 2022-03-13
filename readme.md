@@ -10,7 +10,7 @@
 </ol>
 
 ## About
-This is my first freelance project, and was developed after being a self-taught developer for 41 days #100DaysOfCode. 
+This was my first freelance project, and was developed after being a self-taught developer for 41 days #100DaysOfCode. 
 
 Thanks for the opportunity to develop this landingpage for LMNOPhotography!
 
