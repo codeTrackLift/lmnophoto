@@ -14,13 +14,15 @@ Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a Photography S
 ## About
 This is my first freelance project and was completed as a self-taught developer on Day 41 of #100DaysOfCode. Thanks for the opportunity to create this landingpage for LMNOPhoto.biz!
 
+The website is deployed and maintained.
+
 ## Features & Roadmap
 - [x] Custom designed logo
 - [x] Fully responsive design
 - [x] Mobile compatible
 - [x] 'Photo-drop' effect using Scroll Magic
 
-The website is deployed and will be maintained.  It's contents will be updated as requested by the client, any additional features will be client dependant.
+Website contents will be updated as requested.
 
 ## Photographs are Property of LMNOPhoto.biz 
 
