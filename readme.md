@@ -9,6 +9,7 @@ Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a photography s
     <li>Bootstrap</li>
     <li>Scroll Magic</li>
     <li>CSS Transitions</li>
+    <li>Responsive Web Design</li>
 </ol>
 
 ## About
