@@ -10,10 +10,14 @@
 </ol>
 
 ## About
-This was my first freelance project and was completed as a self-taught developer on Day 41 of #100DaysOfCode. Thanks for the opportunity to create this landingpage for LMNOPhoto.biz!
+This is my first freelance project and was completed as a self-taught developer on Day 41 of #100DaysOfCode. Thanks for the opportunity to create this landingpage for LMNOPhoto.biz!
 
 ## Future Roadmap
-The website content will be updated and maintained.  Any additional features will be up to the client.
+-[x] Fully responsive design
+-[x] Mobile compatible
+-[x] 'Photo-drop' effect using Scroll Magic
+
+The website content will be updated and maintained.  Any additional features will be client dependant.
 
 ## Photographs are Property of LMNOPhoto.biz 
 
