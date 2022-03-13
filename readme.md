@@ -1,6 +1,6 @@
 # <img src='https://www.lmnophoto.biz/pics/mermaid_camera.gif' alt='Mermaid Camera logo' width='30'> LMNOPhoto.biz
 
->Please visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz). 
+>Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a Photography Session!
 
 >**Skills Utilized**:
 <ol>
@@ -19,7 +19,7 @@ This is my first freelance project and was completed as a self-taught developer 
 - [x] Mobile compatible
 - [x] 'Photo-drop' effect using Scroll Magic
 
-The website content will be updated and maintained.  Any additional features will be client dependant.
+The website is deployed and will be maintained.  It's contents will be updated as requested by the client, any additional features will be client dependant.
 
 ## Photographs are Property of LMNOPhoto.biz 
 
