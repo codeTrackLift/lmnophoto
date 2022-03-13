@@ -8,6 +8,7 @@ Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a Photography S
     <li>Media Queries</li>
     <li>Bootstrap</li>
     <li>Scroll Magic</li>
+    <li>CSS Transitions</li>
 </ol>
 
 ## About
@@ -24,6 +25,7 @@ The website is deployed and will be maintained.  It's contents will be updated a
 ## Photographs are Property of LMNOPhoto.biz 
 
 >Copyright (c) 2022 LMNOPhoto.biz 
+>
 ## MIT License 
 >Applies to website code only
 
