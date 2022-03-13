@@ -15,9 +15,13 @@ This was my first freelance project, and was developed after being a self-taught
 Thanks for the opportunity to develop this landingpage for LMNOPhotography!
 
 ## Future Roadmap
-This is client dependent.
+The website content will be updated and maintained.  Any additional features will be up to the client.
 
-## MIT License
+## Photographs are Property of LMNOPhoto.biz 
+
+>Copyright (c) 2022 LMNOPhoto.biz 
+## MIT License 
+>Applies to website code only
 
 Copyright (c) 2022 Pete Chu <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
 
