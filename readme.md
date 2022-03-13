@@ -1,5 +1,28 @@
-# lmnophoto
- LMNO Photography
+# <img src='https://www.lmnophoto.biz/pics/mermaid_camera.gif' alt='Mermaid Camera logo' width='30'> LMNOPhoto.biz
 
-Thanks Pexels for the copyright free photos.
-Thanks Pixabay for the copyright free icon and sound effects.
+>Please visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz). 
+
+>**Skills Utilized**:
+<ol>
+    <li>Languages: HTML, CSS, JavaScript</li>
+    <li>Bootstrap</li>
+    <li>Scroll Magic</li>
+</ol>
+
+## About
+This is my first freelance project, and was developed after being a self-taught developer for 41 days #100DaysOfCode. 
+
+Thanks for the opportunity to develop this landingpage for LMNOPhotography!
+
+## Future Roadmap
+This is client dependent.
+
+## MIT License
+
+Copyright (c) 2022 Pete Chu <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
