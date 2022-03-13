@@ -14,7 +14,7 @@ Visit [www.LMNOPhoto.biz](https://www.lmnophoto.biz) to schedule a photography s
 ## About
 This is my first freelance project and was completed as a self-taught developer on Day 41 of #100DaysOfCode. Thanks for the opportunity to create this landingpage for LMNOPhoto.biz!
 
-The website is deployed and maintained.
+The website is deployed and maintained, with client permission to share as part of my portfolio.
 
 ## Features & Roadmap
 - [x] Custom designed logo
