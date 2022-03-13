@@ -10,9 +10,7 @@
 </ol>
 
 ## About
-This was my first freelance project, and was developed after being a self-taught developer for 41 days #100DaysOfCode. 
-
-Thanks for the opportunity to develop this landingpage for LMNOPhotography!
+This was my first freelance project and was completed as a self-taught developer on Day 41 of #100DaysOfCode. Thanks for the opportunity to create this landingpage for LMNOPhoto.biz!
 
 ## Future Roadmap
 The website content will be updated and maintained.  Any additional features will be up to the client.
