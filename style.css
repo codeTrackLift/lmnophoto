@@ -12,14 +12,7 @@ html {
   overflow-x: hidden;
 }
 
-/* @media (min-width:768px) {
-    .photoBG {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./pics/background.jpg");
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: bottom center;
-    }
-} */
+a
 
 h1,h2 {
   color: cyan;
@@ -201,6 +194,15 @@ textarea {
   gap: 0.5rem;
 }
 
+footer>div>p>a>span {
+    font-style: italic;
+}
+
+footer>div>p>a {
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+
 #cbpLogo,
 #igLogo {
   max-height: 1.5rem;
@@ -230,6 +232,18 @@ textarea {
   }
 }
 
+.socialLogo {
+    max-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+    background-color: black!important;
+    border: 2px solid black;
+    opacity: 0.5;
+}
+
+.socialLogo:hover {
+    transform: scale(-1, 1) scale(1);
+}
+
 /* Photo Animations Below */
 .tiltLeft.show {
   transform: rotate(-15deg);
@@ -244,7 +258,7 @@ textarea {
   transition: transform 0.5s ease-in-out;
 }
 
-.row>.float-start:hover {
+/* .row>.float-start:hover {
   transform: rotate(-0.05turn) scale(0.8);
   opacity: .5;
 }
@@ -252,7 +266,7 @@ textarea {
 .row>.float-end:hover {
   transform: rotate(0.05turn) scale(0.8);
   opacity: .5;
-}
+} */
 
 .scene1,
 .scene2,
