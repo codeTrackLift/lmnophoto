@@ -245,13 +245,13 @@ footer>div>p>a {
 }
 
 /* Photo Animations Below */
-.tiltLeft.show {
+/* .tiltLeft.show {
   transform: rotate(-15deg);
 }
 
 .tiltRight.show {
   transform: rotate(15deg);
-}
+} */
 
 .row>.float-start,
 .row>.float-end {
